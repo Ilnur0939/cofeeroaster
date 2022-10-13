@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'barlow';
+    src: url('../fonts/Barlow-Bold.woff') format('woff') ,
+    url('../fonts/Barlow-Bold.woff2') format('woff2');
+  }
+  
+  
+  @font-face {
+    font-family: 'barlow';
+    src: url('../fonts/Fraunces-9ptBlack.woff') format('woff') ,
+    url('../fonts/Fraunces-9ptBlack.woff2') format('woff2');
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  .visually__hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  ol , ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .container{
+    width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: #fff;
+  }
+
+  .main__title{
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+  }
+
+  .main__style{
+    width: 760px;
+    margin-top: 80px;
+  }
+
+  .main__line{
+    display: block;
+    width: 760px;
+    height: 1px;
+    border: 2px solid #FDD6BA;
+  }
+
+  .main__list__style{
+    position: relative;
+    top: -33px;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+  }
+
+  .main__list__circle{
+    width: 31px;
+    height: 31px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+  }
+
+  .main__list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 67px;
+  }
+
+  .main__list__item{
+    width: 285px;
+    margin-left: 95px;
+  }
+
+  .main__list__item:nth-child(1){
+    margin: 0;
+  }
+
+  .main__number{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+  }
+
+  .main__list__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+  }
+
+  .main__list__text{
+    width: 285px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+  }
